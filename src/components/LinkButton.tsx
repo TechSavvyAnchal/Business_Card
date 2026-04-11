@@ -60,7 +60,7 @@ export default function LinkButton({ name, url, icon, index, color }: LinkButton
           rotateY: -4,
           scale: 1.01,
           transition: { 
-            type: "spring",
+            type: "spring" as const,
             stiffness: 400,
             damping: 10
           } 

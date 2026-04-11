@@ -13,7 +13,7 @@ const containerVariants = {
       staggerChildren: 0.1,
     },
   },
-};
+} as const;
 
 const itemVariants = {
   hidden: { opacity: 0, y: 20, scale: 0.95 },
@@ -22,12 +22,12 @@ const itemVariants = {
     y: 0, 
     scale: 1,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       stiffness: 260,
       damping: 20,
     }
   },
-};
+} as const;
 
 export default function PortfolioSlider() {
   const [width, setWidth] = useState(0);

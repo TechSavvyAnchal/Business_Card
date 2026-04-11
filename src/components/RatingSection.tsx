@@ -20,7 +20,7 @@ export default function RatingSection() {
       viewport={{ once: true, amount: 0.3 }}
       transition={{ 
         duration: 0.8,
-        type: "spring",
+        type: "spring" as const,
         stiffness: 100
       }}
       className="w-full text-center space-y-6"
@@ -43,7 +43,7 @@ export default function RatingSection() {
               whileHover={{ 
                 scale: 1.3, 
                 rotate: 15,
-                transition: { type: "spring", stiffness: 400, damping: 10 }
+                transition: { type: "spring" as const, stiffness: 400, damping: 10 }
               }}
               whileTap={{ scale: 0.8 }}
               className="focus:outline-none"

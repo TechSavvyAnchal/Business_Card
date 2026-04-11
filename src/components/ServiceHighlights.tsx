@@ -29,7 +29,7 @@ export default function ServiceHighlights() {
                 rotateY: 4,
                 scale: 1.02,
                 transition: { 
-                  type: "spring",
+                  type: "spring" as const,
                   stiffness: 400,
                   damping: 10
                 }
