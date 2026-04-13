@@ -4,9 +4,9 @@ export const userData = {
   tagline: "Your Brand. Every Sip.",
   bio: "We make high-quality custom water bottle labels for your business. Just share your design with us, and we will create perfectly branded bottles for your business or event.",
   logo: "/logo.png", 
-  email: "yourlabelon@gmail.com",
-  phone: "+917355912282",
-  whatsapp: "+917355912282",
+  email: "yourlabelone@gmail.com",
+  phone: "+919580852711",
+  whatsapp: "+919580852711",
   location: "Prayagraj, Uttar Pradesh",
   website: "https://yourlabelone.com",
   socials: [
